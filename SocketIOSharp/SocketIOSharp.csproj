@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks Condition="'$(LibraryFrameworks)'==''">net45;net40;netstandard2.0;netcoreapp3.1;net6.0</TargetFrameworks>
+    <TargetFrameworks Condition="'$(LibraryFrameworks)'!=''">$(LibraryFrameworks)</TargetFrameworks>
+    <RootNamespace>SocketIOSharp</RootNamespace>
+    <AssemblyName>SocketIOSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <Authors>uhm0311,yuyl</Authors>
+    <Company>yuyl</Company>
+    <Title>Socket.IO</Title>
+    <Copyright>Copyright (c) 2023 uhm0311,yuyl</Copyright>
+    <Description>add socket connection pre-processing(by https://www.nuget.org/packages/SocketIOSharp/2.0.3)</Description>
+    <PackageId>SocketIOSharp2</PackageId>
+    <PackageTags>Socket.IO;SocketIO</PackageTags>
+    <PackageProjectUrl>https://github.com/yylyhldev/SocketIOSharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/yylyhldev/SocketIOSharp.git</RepositoryUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <MinClientVersion>2.12</MinClientVersion>
+    <PackageVersion>2.0.4</PackageVersion>
+    <PackageReleaseNotes>add socket connection pre-processing(by https://www.nuget.org/packages/SocketIOSharp/2.0.3)</PackageReleaseNotes>
+    <PackageOutputPath>../nuget</PackageOutputPath>
+    <IncludeSymbols>False</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\icon.png" Pack="true" PackagePath="\" />
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EngineIOSharp2" Version="2.0.0.3" />
+  </ItemGroup>
+</Project>
