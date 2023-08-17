@@ -20,7 +20,7 @@
     <RepositoryUrl>https://github.com/yylyhldev/SocketIOSharp.git</RepositoryUrl>
     <PackageIcon>icon.png</PackageIcon>
     <MinClientVersion>2.12</MinClientVersion>
-    <PackageVersion>2.0.4</PackageVersion>
+    <PackageVersion>2.0.5</PackageVersion>
     <PackageReleaseNotes>add socket connection pre-processing(by https://www.nuget.org/packages/SocketIOSharp/2.0.3)</PackageReleaseNotes>
     <PackageOutputPath>../nuget</PackageOutputPath>
     <IncludeSymbols>False</IncludeSymbols>
