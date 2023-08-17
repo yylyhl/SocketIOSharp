@@ -35,6 +35,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="EngineIOSharp2" Version="2.0.0.3" />
+    <PackageReference Include="EngineIOSharp2" Version="2.0.0.4" />
   </ItemGroup>
 </Project>
